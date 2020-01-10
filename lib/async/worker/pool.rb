@@ -35,7 +35,7 @@ module Async
 			end
 			
 			def close
-				@queue.close
+				@queue.close if @queue.respond_to?(:close)
 				@threads.each(&:join)
 			end
 			

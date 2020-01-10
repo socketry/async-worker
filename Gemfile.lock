@@ -41,7 +41,7 @@ PLATFORMS
 DEPENDENCIES
   async-rspec (~> 1.0)
   async-worker!
-  bundler (~> 1.16)
+  bundler (>= 1.16)
   rake (~> 10.0)
   rspec (~> 3.0)
 

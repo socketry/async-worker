@@ -4,7 +4,7 @@ Provides a thread-pool backed work queue for executing blocking operations in a 
 
 [async]: https://github.com/socketry/async
 
-[![Build Status](https://secure.travis-ci.org/socketry/async-worker.svg)](http://travis-ci.org/socketry/async-worker)
+[![Build Status](https://travis-ci.com/socketry/async-worker.svg)](https://travis-ci.com/socketry/async-worker)
 [![Code Climate](https://codeclimate.com/github/socketry/async-worker.svg)](https://codeclimate.com/github/socketry/async-worker)
 [![Coverage Status](https://coveralls.io/repos/socketry/async-worker/badge.svg)](https://coveralls.io/r/socketry/async-worker)
 

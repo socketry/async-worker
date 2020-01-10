@@ -1,5 +1,7 @@
 
 require 'benchmark'
+require 'async/clock'
+require "async/worker"
 
 RSpec.describe Async::Worker do
 	include_context Async::RSpec::Reactor
@@ -12,7 +14,7 @@ RSpec.describe Async::Worker do
 		
 		tasks = []
 		
-		duration = Benchmark.realtime do
+		duration = Async::Clock.measure do
 			count.times do
 				tasks << task.async do
 					pool.async do

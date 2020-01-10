@@ -1,6 +1,6 @@
 # Async::Worker
 
-Provides a thread-pool backed work queue for executing blocking operations in a non-blocking fashion using [async].
+Provides a thread-pool backed work queue for executing blocking operations in a non-blocking fashion using [async]. **Experimental**
 
 [async]: https://github.com/socketry/async
 
@@ -55,6 +55,10 @@ end
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## See Also
+
+- [async-container](https://github.com/socketry/async-container) — A container for parallel execution.
 
 ## License
 
